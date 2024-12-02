@@ -1,0 +1,21 @@
+.simplebutton{
+    background-color: #4CAF50; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 10px 20px; /* Add some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it inline */
+  font-size: 16px; /* Set text size */
+  margin: 4px 2px; /* Add some margin */
+  cursor: pointer; /* Add pointer on hover */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.simplebutton:hover{
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.simplebutton:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+  }

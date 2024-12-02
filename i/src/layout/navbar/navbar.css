@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background-color: #333; /* Navbar arxa fon rəngi */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Kölgə effekti */
+   
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Alt xətti sil */
+    color: white; /* Yazı rəngi */
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Keçid effektləri */
+  }
+  
+  .navbar a:hover {
+    background-color: #555; /* Hover zamanı fon rəngi */
+    color: #ffcc00; /* Hover zamanı yazı rəngi */
+  }
+  
+  .navbar a.active {
+    background-color: #ffcc00; /* Aktiv link fon rəngi */
+    color: #333; /* Aktiv link yazı rəngi */
+    font-weight: bold; /* Qalın yazı */
+  }
+  
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 10px;
+    }
+  }
+  
